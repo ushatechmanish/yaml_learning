@@ -1,0 +1,21 @@
+# "key" : "value"
+"apple" : "I am a red fruit"
+--- # to mention that this document ends
+# lists
+list:
+  - apple
+  - mango
+  - banana
+---
+cities :
+  - new delhi
+  - gurgaon
+  - mumbai
+  - surat
+---
+cities : [new delhi , mumbai] # another list type prepsentation in single line
+---
+{"key1":"value1", "key2":"value2"}
+
+... # document ends here
+

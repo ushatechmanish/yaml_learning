@@ -1,0 +1,9 @@
+# https://onlineyamltools.com/convert-yaml-to-json
+{
+  "cities": [
+    "new delhi",
+    "gurgaon",
+    "mumbai",
+    "surat"
+  ]
+}

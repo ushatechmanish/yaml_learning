@@ -1,0 +1,44 @@
+student: !!seq
+  - marks
+  - name
+  - roll_no
+
+sparse sequence :
+  - avail1
+  -
+  - avail2
+  - null
+
+nested sequence:
+  -
+   -one
+   -two
+   -three
+  -
+    -I
+    -II
+    -III
+
+pair example: !!pairs
+  - job:student
+  - job:contractor
+
+names : !!set
+  ? manish
+  ? vineet
+  ? richa
+  ? akash
+
+# disctionary : !!omap
+
+people : !!omap
+  - manish:
+     name : Manish Chauhan
+     age : 37
+     height: 165
+  - vineet:
+     name : Vineet Chauhan
+     age : 37
+     height: 169
+
+

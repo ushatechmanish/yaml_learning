@@ -1,0 +1,46 @@
+# string variables
+name: Manish Chauhan
+fruit: "mango"
+job: 'software engineer'
+
+# use | to write multiple lines
+bio: |
+  hey my name is manish chauhan 
+  and I am a software engineer
+
+# write a single line in multiple lines
+message: >
+  this will
+  all be 
+  in a single line
+
+# same as
+# message: this will  all be   in a single line
+
+number: 23
+marks_float: 98.76
+booleanValueWithoutType : No # n , N , false , False , FALSE
+
+# specify the type
+zero: !!int 0
+positiveNumber: !!int 45
+binaryNumber: !!int 0b11001
+octalNumber: !!int 0345
+commaValue: !!int +500_256 # 500,256
+exponential number: 6.023e56
+
+#floating point number
+marks: !!float 12.2
+infinite: !!float .inf
+not a num :  .nan
+booleanValue : !!bool true
+
+name with type: !!str Manish Chauhan
+
+#null
+suraname : !!null null # ~
+
+date: !!timestamp 2024-12-15
+
+
+
