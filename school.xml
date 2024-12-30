@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<School name="DPS" principal="someone">
+    <students>
+        <student>
+            <rollno>1</rollno>
+            <name>Manish Chauhan</name>
+            <marks>98</marks>
+        </student>
+        <student>
+            <rollno>2</rollno>
+            <name>Vineet Chauhan</name>
+            <marks>94</marks>
+        </student>
+        <student>
+            <rollno>3</rollno>
+            <name>P S Chauhan</name>
+            <marks>100</marks>
+        </student>
+    </students>
+</School>

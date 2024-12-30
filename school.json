@@ -1,0 +1,25 @@
+{
+  "School": {
+    "students": {
+      "student": [
+        {
+          "rollno": "1",
+          "name": "Manish Chauhan",
+          "marks": "98"
+        },
+        {
+          "rollno": "2",
+          "name": "Vineet Chauhan",
+          "marks": "94"
+        },
+        {
+          "rollno": "3",
+          "name": "P S Chauhan",
+          "marks": "100"
+        }
+      ]
+    },
+    "_name": "DPS",
+    "_principal": "someone"
+  }
+}

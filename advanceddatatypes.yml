@@ -31,7 +31,7 @@ names : !!set
 
 # disctionary : !!omap
 
-people : !!omap
+people : !!omap # the ordered map where the order of key value pair is preserved
   - manish:
      name : Manish Chauhan
      age : 37
@@ -41,4 +41,18 @@ people : !!omap
      age : 37
      height: 169
 
+# reusing some properties  using anchors
+likings: &likes
+  fav fruit: mango
+  dislikes: grapes
+
+person1:
+  name: Manish Chauhan
+  <<: *likes
+
+
+person2:
+  name: Vineet Chauhan
+  <<: *likes
+  dislikes: berries # this will override the grapes
 
